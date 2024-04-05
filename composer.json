@@ -34,7 +34,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Akaramires\\M3uParser\\M3uParserServiceProvider"
+        "Akaramires\\M3uParser\\Providers\\M3uParserServiceProvider"
       ]
     }
   }
