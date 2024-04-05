@@ -1,0 +1,20 @@
+#EXTM3U
+#BACKGROUND-IMAGE:1
+#EXTENC:2
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-MEDIA-SEQUENCE:3
+#EXT-X-TARGETDURATION:4
+#EXT-X-PLAYLIST-TYPE:EVENT
+#EXT-X-VERSION:5
+#ICON:6
+#PLAYLIST:7
+#EXTINF:0 tvg-rec="0" group-title="o'zbek",Ozbekiston
+#EXTGRP:1 o'zbek
+http://akaramires.ottolok.net/iptv/8WULTERQKQ2C2W/2236/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="o'zbek",Yoshlar
+#EXTGRP:2 o'zbek
+http://akaramires.ottolok.net/iptv/8WULTERQKQ2C2W/2237/index.m3u8
+#EXTINF:0 tvg-name="ОТР" tvg-logo="ОТР" tvg-shift="0" group-title="Общероссийский",ОТР
+#EXTGRP:3 Общероссийский
+http://vv.farline.net:10000/9
+#EXT-X-ENDLIST
