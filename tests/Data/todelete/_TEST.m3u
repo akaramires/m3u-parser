@@ -1,0 +1,12 @@
+#EXTM3U cache=500 playlist=1 deinterlace=1 url-tvg="http://mirgiga.iptvportal.ru/jtv.zip" m3uautoload=1
+#EXTNAME:Smart TV
+
+#EXTINF:-1   tvg-logo="Интер+ (Украина)" tvg-name="2690",Интер+
+http://iptv.giga.net.ru:8080/inter_pljus/video.m3u8
+
+#EXTINF:-1   tvg-logo="http://milliy.tv/assets/images/logo.png" tvg-name="None",Milliy TV
+http://milliy.tv/hls/index_480.m3u8
+
+#EXTINF:0,SLO 1 HD
+#EXTTV:nacionalni,hd;slovenski;SLO1;http://cdn1.siol.tv/logo/93x78/slo2.png
+udp://@239.10.2.56:5000

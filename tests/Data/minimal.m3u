@@ -1,0 +1,7 @@
+#EXTM3U cache=500 playlist=1 deinterlace=1 url-tvg="http://iptv.com/jtv.zip" m3uautoload=1
+
+#EXTINF:-1,Channel 1
+http://iptv.com/channel1/video.m3u8
+
+#EXTINF:-1,Channel 2
+http://iptv.com/channel2/video.m3u8
