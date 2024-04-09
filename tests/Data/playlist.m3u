@@ -1,0 +1,39 @@
+#EXTM3U cache=500 playlist=1 deinterlace=1 url-tvg="http://iptv.com/jtv.zip" m3uautoload=1
+#EXTENC:UTF-8
+#PLAYLIST:Amet-Han-Sultan
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-TARGETDURATION:10
+#EXT-X-VERSION:4
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-ALLOWCACHE:1
+#EXT-X-KEY:METHOD=AES-128,URI="hlsEncryptionKey?stream_name=LhSX5NKOZDnZEBlbXQjdyq86CWWVjx-wqvhT_oQ7UJ-0HUweUwmPYb0WiocgyTwTAjZ4R7sF16l48l5LHUzx7A",IV=0x07a6ed33e15beca7f64e57e5137f7fde
+#EXT-X-MAP:URI="main.mp4",BYTERANGE="560@0"
+#EXT-X-START:TIME-OFFSET=25,PRECISE=YES
+
+# Playlist created by SMPlayer 21.1.0 (ревизия 9475)
+
+#EXT-X-DISCONTINUITY
+#EXT-X-PROGRAM-DATE-TIME:2021-05-20T14:00:08.000Z
+#EXTINF:0 tvg-country="es" tvg-logo="https://images.iptvmate.net/playlists/1.jpg" group-title="Spain",TVMatic Comedy
+#EXTVLCOPT:http-user-agent=Lavf53.32.100
+#EXTGRP:3 Общероссийский
+#EXT-X-BYTERANGE:8648@376
+https://iptv.com/channel.m3u8
+
+#EXT-X-DISCONTINUITY
+#EXT-X-PROGRAM-DATE-TIME:2021-05-20T14:00:08.000Z
+#EXTINF:0,TVMatic Comedy
+#EXTVLCOPT:http-user-agent=Lavf53.32.100
+#EXTGRP:3 Общероссийский
+#EXT-X-BYTERANGE:8648@376
+https://iptv.com/channel.m3u8
+
+#EXTINF:0 tvg-country="es" tvg-logo="https://images.iptvmate.net/playlists/1.jpg" group-title="Spain",TVMatic Funny
+https://iptv.com/channel.m3u8
+
+#EXTINF:0,TVMatic Funny
+https://iptv.com/channel.m3u8
+
+#EXTINF:0,#1 HD
+
+#EXT-X-ENDLIST

@@ -21,7 +21,8 @@ class M3uParserServiceProvider extends ServiceProvider
             return;
         }
 
-        $source = realpath($raw = __DIR__ . '/../config/m3u-parser.php') ?: $raw;
+        $source = realpath($raw = __DIR__ . '/../config/m3u-parser.php')
+            ?: $raw;
 
         $this->publishes([$source => $this->app->configPath('m3u-parser.php')]);
     }

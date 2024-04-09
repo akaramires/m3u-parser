@@ -6,5 +6,4 @@ namespace Akaramires\M3uParser\Contracts;
 
 interface TagContract
 {
-
 }

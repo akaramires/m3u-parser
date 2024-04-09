@@ -15,5 +15,8 @@ interface SourceContract
      */
     public function validate(): void;
 
+    /**
+     * @throws PlaylistIsEmptyException
+     */
     public function getContent(): string;
 }
