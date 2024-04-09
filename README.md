@@ -1,5 +1,9 @@
 # Парсер M3U плейлистов
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/akaramires/m3u-parser.svg?style=flat-square)](https://packagist.org/packages/akaramires/m3u-parser)
+[![Total Downloads](https://img.shields.io/packagist/dt/akaramires/m3u-parser.svg?style=flat-square)](https://packagist.org/packages/akaramires/m3u-parser)
+[![License](https://img.shields.io/packagist/l/akaramires/m3u-parser)](https://packagist.org/packages/akaramires/m3u-parser)
+
 Теги, поддерживаемые парсером:
 
 - #EXTM3U
