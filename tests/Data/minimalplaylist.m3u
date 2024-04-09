@@ -1,0 +1,7 @@
+#EXTM3U cache=500 playlist=1 deinterlace=1 url-tvg="http://iptv.com/jtv.zip" m3uautoload=1
+
+#EXTINF:0 tvg-country="es" group-title="Spain",TVMatic Comedy
+https://iptv.com/channel.m3u8
+
+#EXTINF:0,TVMatic Comedy 2
+https://iptv.com/channel.m3u8
